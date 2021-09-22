@@ -3,12 +3,11 @@ function myFunction(myObj, checkProp) {
 
 
     if(myObj.hasOwnProperty(checkProp)){
-    username = myObj[checkProp];
-    console.log(username);
-    return username;
+    console.log(myObj[checkProp]);
+    return 
     }else {
         console.log ("Not Found");
-        return "Not Found";
+        return
     }
     
 
