@@ -5,7 +5,7 @@ var players = {
 }
 
 function myFunction(myObj) {
-    var playerNumber = "10";
+    var playerNumber = 10;
     var player = myObj[playerNumber];
 
     return player;
